@@ -1,0 +1,74 @@
+{
+    "joomla_component": "a4881d3a-6a19-43fd-9c0f-7cbf2071a371",
+    "addsite_views": {
+        "addsite_views0": {
+            "siteview": "140407ee-4631-4cd3-a04d-7cdc26fc8061",
+            "menu": "1",
+            "default_view": "1",
+            "public_access": "1"
+        },
+        "addsite_views1": {
+            "siteview": "96f146c6-0957-4ad5-a353-8056728dd4fb",
+            "menu": "1",
+            "public_access": "1"
+        },
+        "addsite_views2": {
+            "siteview": "1af8efa1-f4dd-4f10-ab34-4e4b1070c46d",
+            "menu": "1",
+            "public_access": "1"
+        },
+        "addsite_views3": {
+            "siteview": "e46f60a7-ec6a-4cab-9f94-c6c65f206a27",
+            "menu": "1",
+            "metadata": "1"
+        },
+        "addsite_views4": {
+            "siteview": "cfeb89a2-1f80-457e-82c9-a3fe8ca80f20",
+            "menu": "1"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "a4881d3a-6a19-43fd-9c0f-7cbf2071a371",
+            "entity": "joomla_component",
+            "table": "#__componentbuilder_joomla_component",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "140407ee-4631-4cd3-a04d-7cdc26fc8061",
+            "entity": "site_view",
+            "table": "#__componentbuilder_site_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "96f146c6-0957-4ad5-a353-8056728dd4fb",
+            "entity": "site_view",
+            "table": "#__componentbuilder_site_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "1af8efa1-f4dd-4f10-ab34-4e4b1070c46d",
+            "entity": "site_view",
+            "table": "#__componentbuilder_site_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "e46f60a7-ec6a-4cab-9f94-c6c65f206a27",
+            "entity": "site_view",
+            "table": "#__componentbuilder_site_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "cfeb89a2-1f80-457e-82c9-a3fe8ca80f20",
+            "entity": "site_view",
+            "table": "#__componentbuilder_site_view",
+            "direction": "out"
+        }
+    ]
+}
