@@ -1,0 +1,35 @@
+{
+    "name": "Long description",
+    "fieldtype": "51f288d2-6eaa-42bc-a182-a6f69b3032b8",
+    "datatype": "LONGTEXT",
+    "indexes": "",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"editor\"\n\tname=\"longdescription\"\n\tlabel=\"Long description\"\n\tdefault=\"\"\n\tdescription=\"Long description\"\n\tmessage=\"\"\n\twidth=\"\"\n\theight=\"\"\n\tcols=\"\"\n\trows=\"5\"\n\tbuttons=\"no\"\n\tsyntax=\"\"\n\thide=\"\"\n\teditor=\"tinyMCE|none\"\n\tfilter=\"raw\"\n\trequired=\"false\"\n\tvalidate=\"\"\n\tshowon=\"\"\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "048ef402-65a6-443f-9e3a-1ac67dcd0bf6",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "51f288d2-6eaa-42bc-a182-a6f69b3032b8",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
