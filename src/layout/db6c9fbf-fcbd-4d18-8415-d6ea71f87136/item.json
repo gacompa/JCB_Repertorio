@@ -1,0 +1,21 @@
+{
+    "name": "Rowslocations",
+    "description": "Rows locations",
+    "dynamic_get": "e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c",
+    "snippet": "0",
+    "guid": "db6c9fbf-fcbd-4d18-8415-d6ea71f87136",
+    "php_view": "$headers = $displayData['headers'];\r\n$items = $displayData['items'];",
+    "add_php_view": 1,
+    "layout": "<?php if (is_array($items)): ?>\r\n\t<?php foreach ($items as $row => $values): ?>\r\n\t\t<tr>\r\n\t\t<?php foreach($values as $value): ?>\r\n\t\t\t<td class=\"\"><?php echo $value; ?><\/td>\r\n\t\t<?php endforeach; ?>\r\n\t\t<\/tr>\r\n\t<?php endforeach; ?>\r\n<?php elseif (is_numeric($items) && is_array($headers)): ?>\r\n\t<?php for( $row = 0; $row < $items; $row++): ?>\r\n\t\t<tr class=\"\">\r\n\t\t<?php foreach($headers as $header): ?>\r\n\t\t\t<td class=\"\">&nbsp;&nbsp;<\/td>\r\n\t\t<?php endforeach; ?>\r\n\t\t<\/tr>\r\n\t<?php endfor; ?>\r\n<?php elseif (is_numeric($items) && is_numeric($headers)): ?>\r\n\t<?php for( $row = 0; $row < $items; $row++): ?>\r\n\t\t<tr class=\"\">\r\n\t\t<?php for( $column = 0; $column < $headers; $column++): ?>\r\n\t\t\t<td class=\"\">&nbsp;&nbsp;<\/td>\r\n\t\t<?php endfor; ?>\r\n\t\t<\/tr>\r\n\t<?php endfor; ?>\r\n<?php endif; ?>",
+    "libraries": null,
+    "alias": "rowslocations",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c",
+            "entity": "dynamic_get",
+            "table": "#__componentbuilder_dynamic_get",
+            "direction": "out"
+        }
+    ]
+}
