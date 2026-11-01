@@ -1,0 +1,20 @@
+{
+    "71c45578-bd82-4b67-bb7c-45cdd0ba5719": {
+        "name": "Pieces",
+        "path": "src\/dynamic_get\/71c45578-bd82-4b67-bb7c-45cdd0ba5719",
+        "settings": "src\/dynamic_get\/71c45578-bd82-4b67-bb7c-45cdd0ba5719\/item.json",
+        "guid": "71c45578-bd82-4b67-bb7c-45cdd0ba5719"
+    },
+    "a5db6b55-75d2-4e1b-8946-d82faf233a55": {
+        "name": "OnePiece",
+        "path": "src\/dynamic_get\/a5db6b55-75d2-4e1b-8946-d82faf233a55",
+        "settings": "src\/dynamic_get\/a5db6b55-75d2-4e1b-8946-d82faf233a55\/item.json",
+        "guid": "a5db6b55-75d2-4e1b-8946-d82faf233a55"
+    },
+    "f991fa54-d452-4787-9da7-13762000f8f7": {
+        "name": "Footpaths",
+        "path": "src\/dynamic_get\/f991fa54-d452-4787-9da7-13762000f8f7",
+        "settings": "src\/dynamic_get\/f991fa54-d452-4787-9da7-13762000f8f7\/item.json",
+        "guid": "f991fa54-d452-4787-9da7-13762000f8f7"
+    }
+}
