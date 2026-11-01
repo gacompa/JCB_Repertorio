@@ -1,0 +1,35 @@
+{
+    "name": "Place_id",
+    "fieldtype": "a1cdb0a5-517c-425c-998a-333e92af3e32",
+    "datatype": "VARCHAR",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"ModalSelect\"\n\tname=\"place_id\"\n\tlabel=\"ID in table places\"\n\tsql_title_table=\"#__###component###_place\"\n\tsql_title_column=\"place\"\n\tsql_title_key=\"id\"\n\turlSelect=\"index.php?option=com_###component###&amp;view=places&amp;layout=modal&amp;tmpl=component&amp;titleKey=id\"\n\turlNew=\"index.php?option=com_###component###&amp;task=targetview.add&amp;layout=modal&amp;tmpl=component\"\n\turlEdit=\"index.php?option=com_###component###&amp;task=targetview.edit&amp;id={id}&amp;layout=modal&amp;tmpl=component\"\n\ttitleSelect=\"Select Place ID\"\n\ttitleNew=\"New Place ID\"\n\ttitleEdit=\"Edit Place ID\"\n\ticonSelect=\"icon-copy\"\n\tselect=\"true\"\n\tnew=\"false\"\n\tedit=\"false\"\n\tclear=\"true\"\n\trequired=\"false\"\n\tclass=\"input-large\"\n\treadonly=\"false\"\n\tdisabled=\"false\"\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "143b101b-a9c9-41eb-9f23-ebf9e9b1146b",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "a1cdb0a5-517c-425c-998a-333e92af3e32",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
