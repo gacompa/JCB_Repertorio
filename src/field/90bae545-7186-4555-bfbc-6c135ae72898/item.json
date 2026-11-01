@@ -1,0 +1,35 @@
+{
+    "name": "Place_altitude",
+    "fieldtype": "5abd2b73-643b-4273-841a-787991aad968",
+    "datatype": "INT",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"number\"\n\tname=\"place_altitude\"\n\tlabel=\"Place altitude (meters above sea level)\"\n\tdefault=\"0\"\n\tdescription=\"Altitude (meters above sea level)\"\n\tclass=\"text_area\"\n\tmin=\"0\"\n\tmax=\"8848\"\n\tstep=\"1\"\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "90bae545-7186-4555-bfbc-6c135ae72898",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "5abd2b73-643b-4273-841a-787991aad968",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
