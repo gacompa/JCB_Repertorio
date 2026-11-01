@@ -23,5 +23,15 @@
         "name": "images\/com_bookings\/Icons\/road-map-icon.png",
         "path": "src\/file_folder\/e5b2102c-355e-5a7e-b929-cd64bef19a7e.png",
         "guid": "e5b2102c-355e-5a7e-b929-cd64bef19a7e.png"
+    },
+    "0eb6089f-d432-5b80-a66b-ee56456f044c.png": {
+        "name": "images\/com_bookings\/Icons\/camping-icon.png",
+        "path": "src\/file_folder\/0eb6089f-d432-5b80-a66b-ee56456f044c.png",
+        "guid": "0eb6089f-d432-5b80-a66b-ee56456f044c.png"
+    },
+    "2e9bbe6c-6525-5ce4-9806-ec0e32fa8e4a.png": {
+        "name": "images\/com_bookings\/Icons\/add-camping-icon.png",
+        "path": "src\/file_folder\/2e9bbe6c-6525-5ce4-9806-ec0e32fa8e4a.png",
+        "guid": "2e9bbe6c-6525-5ce4-9806-ec0e32fa8e4a.png"
     }
 }
