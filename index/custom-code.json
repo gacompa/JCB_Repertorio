@@ -5,5 +5,12 @@
         "path": "src\/custom_code\/getPlaceAltitude",
         "settings": "src\/custom_code\/getPlaceAltitude\/item.json",
         "guid": "getPlaceAltitude"
+    },
+    "getPlaceCoordinates": {
+        "name": "Bookings",
+        "desc": "JCB (manual)",
+        "path": "src\/custom_code\/getPlaceCoordinates",
+        "settings": "src\/custom_code\/getPlaceCoordinates\/item.json",
+        "guid": "getPlaceCoordinates"
     }
 }
