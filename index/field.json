@@ -1,0 +1,128 @@
+{
+    "046cbe0a-493d-40ed-90b7-8c904a3396c9": {
+        "name": "Concert location",
+        "path": "src\/field\/046cbe0a-493d-40ed-90b7-8c904a3396c9",
+        "settings": "src\/field\/046cbe0a-493d-40ed-90b7-8c904a3396c9\/item.json",
+        "guid": "046cbe0a-493d-40ed-90b7-8c904a3396c9"
+    },
+    "07f81786-8c38-4b30-b8cb-7cf819608092": {
+        "name": "Soprano label",
+        "path": "src\/field\/07f81786-8c38-4b30-b8cb-7cf819608092",
+        "settings": "src\/field\/07f81786-8c38-4b30-b8cb-7cf819608092\/item.json",
+        "guid": "07f81786-8c38-4b30-b8cb-7cf819608092"
+    },
+    "14f0aad5-5c25-4b92-bc16-3fa0265dbe6f": {
+        "name": "Bass part",
+        "path": "src\/field\/14f0aad5-5c25-4b92-bc16-3fa0265dbe6f",
+        "settings": "src\/field\/14f0aad5-5c25-4b92-bc16-3fa0265dbe6f\/item.json",
+        "guid": "14f0aad5-5c25-4b92-bc16-3fa0265dbe6f"
+    },
+    "24def5ef-d5be-4c86-9c67-2439ef3ffe4c": {
+        "name": "Soprano part",
+        "path": "src\/field\/24def5ef-d5be-4c86-9c67-2439ef3ffe4c",
+        "settings": "src\/field\/24def5ef-d5be-4c86-9c67-2439ef3ffe4c\/item.json",
+        "guid": "24def5ef-d5be-4c86-9c67-2439ef3ffe4c"
+    },
+    "2a2f971b-76ec-4d78-838c-45548ee7632c": {
+        "name": "Title",
+        "path": "src\/field\/2a2f971b-76ec-4d78-838c-45548ee7632c",
+        "settings": "src\/field\/2a2f971b-76ec-4d78-838c-45548ee7632c\/item.json",
+        "guid": "2a2f971b-76ec-4d78-838c-45548ee7632c"
+    },
+    "4743eb8a-e4a4-4ff1-8d26-b5c2d1721e3e": {
+        "name": "Musical genre",
+        "path": "src\/field\/4743eb8a-e4a4-4ff1-8d26-b5c2d1721e3e",
+        "settings": "src\/field\/4743eb8a-e4a4-4ff1-8d26-b5c2d1721e3e\/item.json",
+        "guid": "4743eb8a-e4a4-4ff1-8d26-b5c2d1721e3e"
+    },
+    "52099a53-25a7-4ffd-bb3c-0eed6729d4e2": {
+        "name": "Bass label",
+        "path": "src\/field\/52099a53-25a7-4ffd-bb3c-0eed6729d4e2",
+        "settings": "src\/field\/52099a53-25a7-4ffd-bb3c-0eed6729d4e2\/item.json",
+        "guid": "52099a53-25a7-4ffd-bb3c-0eed6729d4e2"
+    },
+    "52b08926-9a63-44b4-8a19-580996822e76": {
+        "name": "Score",
+        "path": "src\/field\/52b08926-9a63-44b4-8a19-580996822e76",
+        "settings": "src\/field\/52b08926-9a63-44b4-8a19-580996822e76\/item.json",
+        "guid": "52b08926-9a63-44b4-8a19-580996822e76"
+    },
+    "6d03c3a1-ce6e-4ef1-867d-47a06c01e9d9": {
+        "name": "Part_type",
+        "path": "src\/field\/6d03c3a1-ce6e-4ef1-867d-47a06c01e9d9",
+        "settings": "src\/field\/6d03c3a1-ce6e-4ef1-867d-47a06c01e9d9\/item.json",
+        "guid": "6d03c3a1-ce6e-4ef1-867d-47a06c01e9d9"
+    },
+    "76e3a927-a7e7-4031-adf4-e174efc33d20": {
+        "name": "Alto part YouTube",
+        "path": "src\/field\/76e3a927-a7e7-4031-adf4-e174efc33d20",
+        "settings": "src\/field\/76e3a927-a7e7-4031-adf4-e174efc33d20\/item.json",
+        "guid": "76e3a927-a7e7-4031-adf4-e174efc33d20"
+    },
+    "9cb0fa42-2119-4014-aaca-8cbef2ad9473": {
+        "name": "Soprano part YouTube",
+        "path": "src\/field\/9cb0fa42-2119-4014-aaca-8cbef2ad9473",
+        "settings": "src\/field\/9cb0fa42-2119-4014-aaca-8cbef2ad9473\/item.json",
+        "guid": "9cb0fa42-2119-4014-aaca-8cbef2ad9473"
+    },
+    "a5153072-1cd3-454d-a41b-06c6f349f725": {
+        "name": "Program pieces",
+        "path": "src\/field\/a5153072-1cd3-454d-a41b-06c6f349f725",
+        "settings": "src\/field\/a5153072-1cd3-454d-a41b-06c6f349f725\/item.json",
+        "guid": "a5153072-1cd3-454d-a41b-06c6f349f725"
+    },
+    "a5195930-14b9-4e13-81a8-e3fbf89ec302": {
+        "name": "Composer",
+        "path": "src\/field\/a5195930-14b9-4e13-81a8-e3fbf89ec302",
+        "settings": "src\/field\/a5195930-14b9-4e13-81a8-e3fbf89ec302\/item.json",
+        "guid": "a5195930-14b9-4e13-81a8-e3fbf89ec302"
+    },
+    "b7393f14-c071-453a-b96e-3f246d95b51c": {
+        "name": "Tenor label",
+        "path": "src\/field\/b7393f14-c071-453a-b96e-3f246d95b51c",
+        "settings": "src\/field\/b7393f14-c071-453a-b96e-3f246d95b51c\/item.json",
+        "guid": "b7393f14-c071-453a-b96e-3f246d95b51c"
+    },
+    "bfeeedd3-9a3b-45e4-bfc1-e5e1c551fbaf": {
+        "name": "Alto part",
+        "path": "src\/field\/bfeeedd3-9a3b-45e4-bfc1-e5e1c551fbaf",
+        "settings": "src\/field\/bfeeedd3-9a3b-45e4-bfc1-e5e1c551fbaf\/item.json",
+        "guid": "bfeeedd3-9a3b-45e4-bfc1-e5e1c551fbaf"
+    },
+    "d13d6928-3171-474e-8b98-060bc8ed20ab": {
+        "name": "Alto label",
+        "path": "src\/field\/d13d6928-3171-474e-8b98-060bc8ed20ab",
+        "settings": "src\/field\/d13d6928-3171-474e-8b98-060bc8ed20ab\/item.json",
+        "guid": "d13d6928-3171-474e-8b98-060bc8ed20ab"
+    },
+    "d4688359-1193-4cc9-a4d9-ff5b23a91830": {
+        "name": "Bass part Youtube",
+        "path": "src\/field\/d4688359-1193-4cc9-a4d9-ff5b23a91830",
+        "settings": "src\/field\/d4688359-1193-4cc9-a4d9-ff5b23a91830\/item.json",
+        "guid": "d4688359-1193-4cc9-a4d9-ff5b23a91830"
+    },
+    "d4d78461-cb50-4d60-924b-c37e5737a2c7": {
+        "name": "Tenor part",
+        "path": "src\/field\/d4d78461-cb50-4d60-924b-c37e5737a2c7",
+        "settings": "src\/field\/d4d78461-cb50-4d60-924b-c37e5737a2c7\/item.json",
+        "guid": "d4d78461-cb50-4d60-924b-c37e5737a2c7"
+    },
+    "e41f4b77-325a-4035-a25f-ef25fe04894d": {
+        "name": "Tenor part YouTube",
+        "path": "src\/field\/e41f4b77-325a-4035-a25f-ef25fe04894d",
+        "settings": "src\/field\/e41f4b77-325a-4035-a25f-ef25fe04894d\/item.json",
+        "guid": "e41f4b77-325a-4035-a25f-ef25fe04894d"
+    },
+    "f1d51293-83af-40f3-b52a-7d5615664dc6": {
+        "name": "Public performance",
+        "path": "src\/field\/f1d51293-83af-40f3-b52a-7d5615664dc6",
+        "settings": "src\/field\/f1d51293-83af-40f3-b52a-7d5615664dc6\/item.json",
+        "guid": "f1d51293-83af-40f3-b52a-7d5615664dc6"
+    },
+    "fae77b76-4350-4e98-9ab9-6f85f64bebdb": {
+        "name": "Concert name",
+        "path": "src\/field\/fae77b76-4350-4e98-9ab9-6f85f64bebdb",
+        "settings": "src\/field\/fae77b76-4350-4e98-9ab9-6f85f64bebdb\/item.json",
+        "guid": "fae77b76-4350-4e98-9ab9-6f85f64bebdb"
+    }
+}
