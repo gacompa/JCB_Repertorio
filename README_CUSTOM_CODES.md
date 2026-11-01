@@ -99,6 +99,7 @@ This design encourages collaborative and modular development across multiple JCB
 
 
  - **Bookings** | [Details](src/custom_code/getPlaceAltitude) | [Settings](src/custom_code/getPlaceAltitude/item.json) | JCB (manual)
+ - **Bookings** | [Details](src/custom_code/getPlaceCoordinates) | [Settings](src/custom_code/getPlaceCoordinates/item.json) | JCB (manual)
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
 
