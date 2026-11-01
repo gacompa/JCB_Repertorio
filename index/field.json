@@ -310,5 +310,113 @@
         "path": "src\/field\/fd05b628-8b23-42fc-aacc-78ebcf96ea60",
         "settings": "src\/field\/fd05b628-8b23-42fc-aacc-78ebcf96ea60\/item.json",
         "guid": "fd05b628-8b23-42fc-aacc-78ebcf96ea60"
+    },
+    "03995043-13fb-4ec7-bc66-e13434425a06": {
+        "name": "DateFirstStop",
+        "path": "src\/field\/03995043-13fb-4ec7-bc66-e13434425a06",
+        "settings": "src\/field\/03995043-13fb-4ec7-bc66-e13434425a06\/item.json",
+        "guid": "03995043-13fb-4ec7-bc66-e13434425a06"
+    },
+    "0d4a5caa-2199-4fb1-b07f-bd8071d71dbe": {
+        "name": "Group_name",
+        "path": "src\/field\/0d4a5caa-2199-4fb1-b07f-bd8071d71dbe",
+        "settings": "src\/field\/0d4a5caa-2199-4fb1-b07f-bd8071d71dbe\/item.json",
+        "guid": "0d4a5caa-2199-4fb1-b07f-bd8071d71dbe"
+    },
+    "2a0bda5d-0076-4f48-9f95-51742c73b564": {
+        "name": "Ninth stop",
+        "path": "src\/field\/2a0bda5d-0076-4f48-9f95-51742c73b564",
+        "settings": "src\/field\/2a0bda5d-0076-4f48-9f95-51742c73b564\/item.json",
+        "guid": "2a0bda5d-0076-4f48-9f95-51742c73b564"
+    },
+    "2c6061d1-eb07-4f29-858b-21e4439b237b": {
+        "name": "Longitude (decimal)",
+        "path": "src\/field\/2c6061d1-eb07-4f29-858b-21e4439b237b",
+        "settings": "src\/field\/2c6061d1-eb07-4f29-858b-21e4439b237b\/item.json",
+        "guid": "2c6061d1-eb07-4f29-858b-21e4439b237b"
+    },
+    "38b8ba46-7137-4d4d-9da4-2c67b4e5c6a3": {
+        "name": "Place",
+        "path": "src\/field\/38b8ba46-7137-4d4d-9da4-2c67b4e5c6a3",
+        "settings": "src\/field\/38b8ba46-7137-4d4d-9da4-2c67b4e5c6a3\/item.json",
+        "guid": "38b8ba46-7137-4d4d-9da4-2c67b4e5c6a3"
+    },
+    "4a87c014-04ca-4986-8aea-43ed407ff07a": {
+        "name": "Second stop",
+        "path": "src\/field\/4a87c014-04ca-4986-8aea-43ed407ff07a",
+        "settings": "src\/field\/4a87c014-04ca-4986-8aea-43ed407ff07a\/item.json",
+        "guid": "4a87c014-04ca-4986-8aea-43ed407ff07a"
+    },
+    "68699537-3391-400c-af78-177327570b4e": {
+        "name": "Identification code",
+        "path": "src\/field\/68699537-3391-400c-af78-177327570b4e",
+        "settings": "src\/field\/68699537-3391-400c-af78-177327570b4e\/item.json",
+        "guid": "68699537-3391-400c-af78-177327570b4e"
+    },
+    "7f496a03-f125-4379-af46-1cec6b335b13": {
+        "name": "Participants",
+        "path": "src\/field\/7f496a03-f125-4379-af46-1cec6b335b13",
+        "settings": "src\/field\/7f496a03-f125-4379-af46-1cec6b335b13\/item.json",
+        "guid": "7f496a03-f125-4379-af46-1cec6b335b13"
+    },
+    "934eb37b-0fb1-4fed-b3ec-969cd0b364ee": {
+        "name": "First stop",
+        "path": "src\/field\/934eb37b-0fb1-4fed-b3ec-969cd0b364ee",
+        "settings": "src\/field\/934eb37b-0fb1-4fed-b3ec-969cd0b364ee\/item.json",
+        "guid": "934eb37b-0fb1-4fed-b3ec-969cd0b364ee"
+    },
+    "a43b487c-51d6-4264-8925-067e3368bcbe": {
+        "name": "Tenth stop",
+        "path": "src\/field\/a43b487c-51d6-4264-8925-067e3368bcbe",
+        "settings": "src\/field\/a43b487c-51d6-4264-8925-067e3368bcbe\/item.json",
+        "guid": "a43b487c-51d6-4264-8925-067e3368bcbe"
+    },
+    "aae1f2fc-19c1-420d-af91-b79efa778ba2": {
+        "name": "Seventh stop",
+        "path": "src\/field\/aae1f2fc-19c1-420d-af91-b79efa778ba2",
+        "settings": "src\/field\/aae1f2fc-19c1-420d-af91-b79efa778ba2\/item.json",
+        "guid": "aae1f2fc-19c1-420d-af91-b79efa778ba2"
+    },
+    "adc03eca-4944-4244-a993-a6c30692fc23": {
+        "name": "Sixth stop",
+        "path": "src\/field\/adc03eca-4944-4244-a993-a6c30692fc23",
+        "settings": "src\/field\/adc03eca-4944-4244-a993-a6c30692fc23\/item.json",
+        "guid": "adc03eca-4944-4244-a993-a6c30692fc23"
+    },
+    "b3974c81-418c-4117-8403-4463c492c69f": {
+        "name": "Eight stop",
+        "path": "src\/field\/b3974c81-418c-4117-8403-4463c492c69f",
+        "settings": "src\/field\/b3974c81-418c-4117-8403-4463c492c69f\/item.json",
+        "guid": "b3974c81-418c-4117-8403-4463c492c69f"
+    },
+    "b83771c3-ffd1-4827-a41d-a633873517c7": {
+        "name": "Latitude (decimal)",
+        "path": "src\/field\/b83771c3-ffd1-4827-a41d-a633873517c7",
+        "settings": "src\/field\/b83771c3-ffd1-4827-a41d-a633873517c7\/item.json",
+        "guid": "b83771c3-ffd1-4827-a41d-a633873517c7"
+    },
+    "bdee9804-cf65-46da-a49a-5397789c801e": {
+        "name": "Altitude",
+        "path": "src\/field\/bdee9804-cf65-46da-a49a-5397789c801e",
+        "settings": "src\/field\/bdee9804-cf65-46da-a49a-5397789c801e\/item.json",
+        "guid": "bdee9804-cf65-46da-a49a-5397789c801e"
+    },
+    "e9cd8058-7643-43d4-9738-d7138ed7039e": {
+        "name": "Fourth stop",
+        "path": "src\/field\/e9cd8058-7643-43d4-9738-d7138ed7039e",
+        "settings": "src\/field\/e9cd8058-7643-43d4-9738-d7138ed7039e\/item.json",
+        "guid": "e9cd8058-7643-43d4-9738-d7138ed7039e"
+    },
+    "ed30c695-5d2c-41b1-8849-6e75d2a7554a": {
+        "name": "Fifth stop",
+        "path": "src\/field\/ed30c695-5d2c-41b1-8849-6e75d2a7554a",
+        "settings": "src\/field\/ed30c695-5d2c-41b1-8849-6e75d2a7554a\/item.json",
+        "guid": "ed30c695-5d2c-41b1-8849-6e75d2a7554a"
+    },
+    "f68fdba1-62f1-4396-b915-cacc79206db5": {
+        "name": "Third stop",
+        "path": "src\/field\/f68fdba1-62f1-4396-b915-cacc79206db5",
+        "settings": "src\/field\/f68fdba1-62f1-4396-b915-cacc79206db5\/item.json",
+        "guid": "f68fdba1-62f1-4396-b915-cacc79206db5"
     }
 }
