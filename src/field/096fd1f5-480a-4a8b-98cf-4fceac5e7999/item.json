@@ -1,0 +1,35 @@
+{
+    "name": "Telephone",
+    "fieldtype": "1c6c519c-3bc8-4914-8940-3e9591b0bce6",
+    "datatype": "VARCHAR",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"text\"\n\tname=\"phone\"\n\tlabel=\"Phone number\"\n\tsize=\"10\"\n\tmaxlength=\"50\"\n\tdescription=\"Phone number\"\n\tclass=\"text_area\"\n\treadonly=\"false\"\n\tdisabled=\"false\"\n\trequired=\"false\"\n\tfilter=\"tel\"\n\tvalidated=\"tel\"\n\thint=\"Phone number\"\n\/>",
+    "datalenght": "50",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "096fd1f5-480a-4a8b-98cf-4fceac5e7999",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "1c6c519c-3bc8-4914-8940-3e9591b0bce6",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
