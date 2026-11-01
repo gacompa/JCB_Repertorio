@@ -1,0 +1,58 @@
+{
+    "name": "Locations",
+    "main_source": 1,
+    "gettype": 2,
+    "php_calculation": "",
+    "php_router_parse": null,
+    "add_php_after_getitems": 1,
+    "add_php_router_parse": 0,
+    "view_selection": "a.id AS id\r\na.asset_id AS asset_id\r\na.image AS image\r\na.place_id AS place_id\r\na.name AS name\r\na.location AS location\r\na.description AS description\r\na.place_altitude AS place_altitude\r\na.longdescription AS longdescription\r\na.is_base AS is_base\r\na.is_stop AS is_stop\r\na.phone AS phone\r\na.security_rules AS security_rules\r\na.credits AS credits\r\na.places_indoor AS places_indoor\r\na.places_outdoor AS places_outdoor\r\na.rest_room_checkbox AS rest_room_checkbox\r\na.rest_room_comments AS rest_room_comments\r\na.heating_checkbox AS heating_checkbox\r\na.heating_comments AS heating_comments\r\na.water_checkbox AS water_checkbox\r\na.water_comments AS water_comments\r\na.electricity_checkbox AS electricity_checkbox\r\na.electricity_comments AS electricity_comments\r\na.kitchen_checkbox AS kitchen_checkbox\r\na.kitchen_comments AS kitchen_comments\r\na.camp_fire_checkbox AS camp_fire_checkbox\r\na.camp_fire_comments AS camp_fire_comments\r\na.published AS published\r\na.created_by AS created_by\r\na.modified_by AS modified_by\r\na.created AS created\r\na.modified AS modified\r\na.version AS version\r\na.hits AS hits\r\na.ordering AS ordering",
+    "add_php_before_getitems": 0,
+    "add_php_before_getitem": 0,
+    "add_php_after_getitem": 0,
+    "db_table_main": null,
+    "php_custom_get": null,
+    "plugin_events": null,
+    "db_selection": null,
+    "view_table_main": "eafd26f7-b13c-4c36-b8a3-ae7d71febb24",
+    "add_php_getlistquery": 0,
+    "join_db_table": null,
+    "select_all": 0,
+    "php_before_getitem": "",
+    "getcustom": "",
+    "php_after_getitem": "",
+    "pagination": 1,
+    "php_getlistquery": "\/\/  Add PHP (getListQuery - JModelList) * ",
+    "php_before_getitems": "\/\/  Add PHP (before getting the Items) * ",
+    "filter": null,
+    "php_after_getitems": "[CUSTOMCODE=getPlaceAltitude]\r\n\r\n \/\/ do a quick build of all edit links links\r\n\t\tif (isset($items) && $items)\r\n\t\t{\r\n\t\t\tforeach ($items as $nr => &$item)\r\n\t\t\t{\r\n\t\t\t\t$canDo = [[[Component]]]Helper::getActions('look',$item,'Location');\r\n\t\t\t\tif ($canDo->get('look.edit'))\r\n\t\t\t\t{\r\n\t\t\t\t\t$item->editLink = '<br \/><br \/><a class=\"uk-button uk-button-primary uk-width-1-1\" href=\"';\r\n\t\t\t\t\t$item->editLink .= Joomla___d4c76099_4c32_408a_8701_d0a724484dfd___Power::_('index.php?option=com_[[[component]]]&view=look&task=look.edit&id=' . $item->id);\r\n\t\t\t\t\t$item->editLink .= '\"><i class=\"uk-icon-pencil\"><\/i><span class=\"uk-hidden-small\">';\r\n\t\t\t\t\t$item->editLink .= Text::_('Edit Look');\r\n\t\t\t\t\t$item->editLink .= '<\/span><\/a>';\r\n\t\t\t\t}\r\n\t\t\t\telse\r\n\t\t\t\t{\r\n\t\t\t\t\t$item->editLink = '';\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}",
+    "where": {
+        "where0": {
+            "table_key": "a.published",
+            "operator": 1,
+            "value_key": "1"
+        }
+    },
+    "order": null,
+    "addcalculation": 0,
+    "group": null,
+    "global": null,
+    "guid": "e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c",
+    "join_view_table": null,
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "eafd26f7-b13c-4c36-b8a3-ae7d71febb24",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "getPlaceAltitude",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        }
+    ]
+}
