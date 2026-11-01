@@ -33,5 +33,89 @@
         "path": "src\/site_view\/e46f60a7-ec6a-4cab-9f94-c6c65f206a27",
         "settings": "src\/site_view\/e46f60a7-ec6a-4cab-9f94-c6c65f206a27\/item.json",
         "guid": "e46f60a7-ec6a-4cab-9f94-c6c65f206a27"
+    },
+    "13989926-5894-4344-83dc-fba6eff3b3af": {
+        "name": "Footpaths edit list",
+        "desc": "List of footpaths for edit",
+        "path": "src\/site_view\/13989926-5894-4344-83dc-fba6eff3b3af",
+        "settings": "src\/site_view\/13989926-5894-4344-83dc-fba6eff3b3af\/item.json",
+        "guid": "13989926-5894-4344-83dc-fba6eff3b3af"
+    },
+    "379b089a-e018-4fa9-9c42-c792a414beff": {
+        "name": "Locations list",
+        "desc": "List of locations",
+        "path": "src\/site_view\/379b089a-e018-4fa9-9c42-c792a414beff",
+        "settings": "src\/site_view\/379b089a-e018-4fa9-9c42-c792a414beff\/item.json",
+        "guid": "379b089a-e018-4fa9-9c42-c792a414beff"
+    },
+    "47acca5d-c194-47fe-8961-0c849fcadbe0": {
+        "name": "Location single",
+        "desc": "Display of one location description, map and other info",
+        "path": "src\/site_view\/47acca5d-c194-47fe-8961-0c849fcadbe0",
+        "settings": "src\/site_view\/47acca5d-c194-47fe-8961-0c849fcadbe0\/item.json",
+        "guid": "47acca5d-c194-47fe-8961-0c849fcadbe0"
+    },
+    "715839f3-0de7-4b1f-a94e-aca0954d03b9": {
+        "name": "Default view",
+        "desc": "The default view",
+        "path": "src\/site_view\/715839f3-0de7-4b1f-a94e-aca0954d03b9",
+        "settings": "src\/site_view\/715839f3-0de7-4b1f-a94e-aca0954d03b9\/item.json",
+        "guid": "715839f3-0de7-4b1f-a94e-aca0954d03b9"
+    },
+    "7d637624-7dd1-4f4e-a7aa-cfc7d333ded0": {
+        "name": "Location map",
+        "desc": "Map of locations",
+        "path": "src\/site_view\/7d637624-7dd1-4f4e-a7aa-cfc7d333ded0",
+        "settings": "src\/site_view\/7d637624-7dd1-4f4e-a7aa-cfc7d333ded0\/item.json",
+        "guid": "7d637624-7dd1-4f4e-a7aa-cfc7d333ded0"
+    },
+    "ba21a497-c1a5-40c2-a486-3d637bb1a9a5": {
+        "name": "Occupancy map",
+        "desc": "Map of occupancy of locations",
+        "path": "src\/site_view\/ba21a497-c1a5-40c2-a486-3d637bb1a9a5",
+        "settings": "src\/site_view\/ba21a497-c1a5-40c2-a486-3d637bb1a9a5\/item.json",
+        "guid": "ba21a497-c1a5-40c2-a486-3d637bb1a9a5"
+    },
+    "d6f6a358-be9d-49d0-931e-ac2cbe37ba38": {
+        "name": "Locations blocks",
+        "desc": "Main view for Locations - blocks view",
+        "path": "src\/site_view\/d6f6a358-be9d-49d0-931e-ac2cbe37ba38",
+        "settings": "src\/site_view\/d6f6a358-be9d-49d0-931e-ac2cbe37ba38\/item.json",
+        "guid": "d6f6a358-be9d-49d0-931e-ac2cbe37ba38"
+    },
+    "d8443ac1-247d-4f5a-813a-6c71400a4294": {
+        "name": "Footpaths list",
+        "desc": "List of Footpaths",
+        "path": "src\/site_view\/d8443ac1-247d-4f5a-813a-6c71400a4294",
+        "settings": "src\/site_view\/d8443ac1-247d-4f5a-813a-6c71400a4294\/item.json",
+        "guid": "d8443ac1-247d-4f5a-813a-6c71400a4294"
+    },
+    "df889519-71e3-40be-b74a-5abdbff5c003": {
+        "name": "Locations table",
+        "desc": "Site locations - table view",
+        "path": "src\/site_view\/df889519-71e3-40be-b74a-5abdbff5c003",
+        "settings": "src\/site_view\/df889519-71e3-40be-b74a-5abdbff5c003\/item.json",
+        "guid": "df889519-71e3-40be-b74a-5abdbff5c003"
+    },
+    "e6bc3a5f-909e-493c-ba8a-6a79b555b2f7": {
+        "name": "Places map",
+        "desc": "Display of places map",
+        "path": "src\/site_view\/e6bc3a5f-909e-493c-ba8a-6a79b555b2f7",
+        "settings": "src\/site_view\/e6bc3a5f-909e-493c-ba8a-6a79b555b2f7\/item.json",
+        "guid": "e6bc3a5f-909e-493c-ba8a-6a79b555b2f7"
+    },
+    "e8a6f606-582c-41d6-b0b0-147d1c75c7ca": {
+        "name": "Footpath single",
+        "desc": "Display of one path description, map and other info",
+        "path": "src\/site_view\/e8a6f606-582c-41d6-b0b0-147d1c75c7ca",
+        "settings": "src\/site_view\/e8a6f606-582c-41d6-b0b0-147d1c75c7ca\/item.json",
+        "guid": "e8a6f606-582c-41d6-b0b0-147d1c75c7ca"
+    },
+    "f1681276-fff6-4dab-bc58-2b229d83316f": {
+        "name": "Locations edit list",
+        "desc": "List of locations for edit",
+        "path": "src\/site_view\/f1681276-fff6-4dab-bc58-2b229d83316f",
+        "settings": "src\/site_view\/f1681276-fff6-4dab-bc58-2b229d83316f\/item.json",
+        "guid": "f1681276-fff6-4dab-bc58-2b229d83316f"
     }
 }
