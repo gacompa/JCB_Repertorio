@@ -22,5 +22,23 @@
         "path": "src\/admin_view\/children\/eafd26f7-b13c-4c36-b8a3-ae7d71febb24",
         "settings": "src\/admin_view\/children\/eafd26f7-b13c-4c36-b8a3-ae7d71febb24\/admin-fields.json",
         "guid": "eafd26f7-b13c-4c36-b8a3-ae7d71febb24"
+    },
+    "55aac7da-e105-4ab2-9c34-6ee44e8b692c": {
+        "name": "55aac7da-e105-4ab2-9c34-6ee44e8b692c",
+        "path": "src\/admin_view\/children\/55aac7da-e105-4ab2-9c34-6ee44e8b692c",
+        "settings": "src\/admin_view\/children\/55aac7da-e105-4ab2-9c34-6ee44e8b692c\/admin-fields.json",
+        "guid": "55aac7da-e105-4ab2-9c34-6ee44e8b692c"
+    },
+    "68afc434-c4fc-48e6-8133-ddf9b5997ca5": {
+        "name": "68afc434-c4fc-48e6-8133-ddf9b5997ca5",
+        "path": "src\/admin_view\/children\/68afc434-c4fc-48e6-8133-ddf9b5997ca5",
+        "settings": "src\/admin_view\/children\/68afc434-c4fc-48e6-8133-ddf9b5997ca5\/admin-fields.json",
+        "guid": "68afc434-c4fc-48e6-8133-ddf9b5997ca5"
+    },
+    "e2a073f0-4550-4e45-93a0-973c2b7c5732": {
+        "name": "e2a073f0-4550-4e45-93a0-973c2b7c5732",
+        "path": "src\/admin_view\/children\/e2a073f0-4550-4e45-93a0-973c2b7c5732",
+        "settings": "src\/admin_view\/children\/e2a073f0-4550-4e45-93a0-973c2b7c5732\/admin-fields.json",
+        "guid": "e2a073f0-4550-4e45-93a0-973c2b7c5732"
     }
 }
