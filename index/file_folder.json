@@ -33,5 +33,40 @@
         "name": "images\/com_bookings\/Icons\/add-camping-icon.png",
         "path": "src\/file_folder\/2e9bbe6c-6525-5ce4-9806-ec0e32fa8e4a.png",
         "guid": "2e9bbe6c-6525-5ce4-9806-ec0e32fa8e4a.png"
+    },
+    "fb7d6ee3-a2fc-5c17-998e-cbd40dc71f51.jpg": {
+        "name": "images\/com_bookings\/Cascate_sopra_Sivigia.jpg",
+        "path": "src\/file_folder\/fb7d6ee3-a2fc-5c17-998e-cbd40dc71f51.jpg",
+        "guid": "fb7d6ee3-a2fc-5c17-998e-cbd40dc71f51.jpg"
+    },
+    "6a7900b4-5f16-550c-b6bb-b19f9a1125cf.png": {
+        "name": "images\/com_bookings\/Icons\/address-location-icon.png",
+        "path": "src\/file_folder\/6a7900b4-5f16-550c-b6bb-b19f9a1125cf.png",
+        "guid": "6a7900b4-5f16-550c-b6bb-b19f9a1125cf.png"
+    },
+    "a0c2a804-e1ae-50bd-a947-e0568f1a6023.png": {
+        "name": "images\/com_bookings\/Icons\/add-map-location-black-icon.png",
+        "path": "src\/file_folder\/a0c2a804-e1ae-50bd-a947-e0568f1a6023.png",
+        "guid": "a0c2a804-e1ae-50bd-a947-e0568f1a6023.png"
+    },
+    "13b6d5e9-40c8-5c93-9449-eb222b0b1805.png": {
+        "name": "images\/com_bookings\/Icons\/group-icon.png",
+        "path": "src\/file_folder\/13b6d5e9-40c8-5c93-9449-eb222b0b1805.png",
+        "guid": "13b6d5e9-40c8-5c93-9449-eb222b0b1805.png"
+    },
+    "726d526c-5f00-5a91-8876-7249bdb2ba88.png": {
+        "name": "images\/com_bookings\/Icons\/create-group-icon.png",
+        "path": "src\/file_folder\/726d526c-5f00-5a91-8876-7249bdb2ba88.png",
+        "guid": "726d526c-5f00-5a91-8876-7249bdb2ba88.png"
+    },
+    "577f539e-a34d-56b3-a0f0-5edb6378ed96.png": {
+        "name": "images\/com_bookings\/Icons\/trek-icon.png",
+        "path": "src\/file_folder\/577f539e-a34d-56b3-a0f0-5edb6378ed96.png",
+        "guid": "577f539e-a34d-56b3-a0f0-5edb6378ed96.png"
+    },
+    "623cc287-54de-55f5-9b9b-0437d0d34b01.png": {
+        "name": "images\/com_bookings\/Icons\/trek-add-icon.png",
+        "path": "src\/file_folder\/623cc287-54de-55f5-9b9b-0437d0d34b01.png",
+        "guid": "623cc287-54de-55f5-9b9b-0437d0d34b01.png"
     }
 }
