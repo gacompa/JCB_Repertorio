@@ -1,0 +1,35 @@
+{
+    "name": "Credits",
+    "fieldtype": "201327fe-3067-4316-a155-3fe2a52e05c0",
+    "datatype": "VARCHAR",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"text\"\n\tname=\"credits\"\n\tlabel=\"Credits \"\n\tsize=\"128\"\n\tmaxlength=\"256\"\n\tdescription=\"Credits to\"\n\tclass=\"text_area\"\n\treadonly=\"false\"\n\tdisabled=\"false\"\n\trequired=\"false\"\n\tfilter=\"STRING\"\n\thint=\"Credits to\"\n\tautocomplete=\"on\"\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "897b1866-93ae-4c77-9d76-2d59fe32fc83",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "201327fe-3067-4316-a155-3fe2a52e05c0",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
