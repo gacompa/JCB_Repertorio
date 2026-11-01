@@ -1,0 +1,35 @@
+{
+    "name": "Identification code",
+    "fieldtype": "201327fe-3067-4316-a155-3fe2a52e05c0",
+    "datatype": "VARCHAR",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"text\"\n\tname=\"id_code\"\n\tlabel=\"Identification code\"\n\tsize=\"10\"\n\tmaxlength=\"50\"\n\tdefault=\"\"\n\tdescription=\"Do NOT write, will be generated at SAVE\"\n\tclass=\"text_area\"\n\treadonly=\"true\"\n\tdisabled=\"false\"\n\trequired=\"false\"\n\tfilter=\"STRING\"\n\tvalidate=\"\"\n\tfield=\"\"\n\tmessage=\"Do NOT write, will be generated at SAVE\"\n\thint=\"Do NOT write, will be generated at SAVE\"\n\tautocomplete=\"on\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "\/**\r\n * Generates a random 6-digit code with a mix of numbers and capital letters.\r\n *\r\n * @returns {string} The 6-digit random alphanumeric code as a string.\r\n *\/\r\nfunction generateAlphanumericCode() {\r\n  \/\/ Define the set of characters to choose from: numbers 0-9 and capital letters A-Z.\r\n  const characters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';\r\n  let result = '';\r\n  const codeLength = 6;\r\n\r\n  \/\/ Loop to generate a 6-character code.\r\n  for (let i = 0; i < codeLength; i++) {\r\n    \/\/ Generate a random index based on the length of the characters string.\r\n    const randomIndex = Math.floor(Math.random() * characters.length);\r\n    \r\n    \/\/ Append the character at the random index to the result string.\r\n    result += characters.charAt(randomIndex);\r\n  }\r\n\r\n  return result;\r\n}\r\n\r\n\/\/ --- Example Usage ---\r\n\r\n\/\/ Get a new random alphanumeric code.\r\nconst code = generateAlphanumericCode();\r\n\r\n\/\/ Log the code to the console.\r\nconsole.log(\"Generated 6-digit alphanumeric code:\", code);\r\n\r\n\/\/ You can also use this code to update an element on a web page.\r\n\/\/ For example:\r\n\/\/ const codeElement = document.getElementById('codeDisplay');\r\n\/\/ if (codeElement) {\r\n\/\/   codeElement.textContent = `Your new code is: ${code}`;\r\n\/\/ }\r\n\r\n\/\/ To run this code and see the output, you can open the browser console (usually F12 or Ctrl+Shift+I)\r\n\/\/ or save this file as a .js file and run it with Node.js.\r\n",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 1,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "68699537-3391-400c-af78-177327570b4e",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "201327fe-3067-4316-a155-3fe2a52e05c0",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
