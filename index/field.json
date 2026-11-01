@@ -124,5 +124,17 @@
         "path": "src\/field\/fae77b76-4350-4e98-9ab9-6f85f64bebdb",
         "settings": "src\/field\/fae77b76-4350-4e98-9ab9-6f85f64bebdb\/item.json",
         "guid": "fae77b76-4350-4e98-9ab9-6f85f64bebdb"
+    },
+    "93945801-c567-44ab-802c-43e8f8a98643": {
+        "name": "Execution_notes",
+        "path": "src\/field\/93945801-c567-44ab-802c-43e8f8a98643",
+        "settings": "src\/field\/93945801-c567-44ab-802c-43e8f8a98643\/item.json",
+        "guid": "93945801-c567-44ab-802c-43e8f8a98643"
+    },
+    "a557cc9f-7c09-494e-a8b0-2845ad80d940": {
+        "name": "Piece_id",
+        "path": "src\/field\/a557cc9f-7c09-494e-a8b0-2845ad80d940",
+        "settings": "src\/field\/a557cc9f-7c09-494e-a8b0-2845ad80d940\/item.json",
+        "guid": "a557cc9f-7c09-494e-a8b0-2845ad80d940"
     }
 }
