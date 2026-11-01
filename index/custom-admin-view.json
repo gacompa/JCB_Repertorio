@@ -1,0 +1,9 @@
+{
+    "5da554d3-7f98-4fe9-9f34-82bc2cd3dec8": {
+        "name": "Pieces tab",
+        "desc": "Pieces in tabular mode",
+        "path": "src\/custom_admin_view\/5da554d3-7f98-4fe9-9f34-82bc2cd3dec8",
+        "settings": "src\/custom_admin_view\/5da554d3-7f98-4fe9-9f34-82bc2cd3dec8\/item.json",
+        "guid": "5da554d3-7f98-4fe9-9f34-82bc2cd3dec8"
+    }
+}
