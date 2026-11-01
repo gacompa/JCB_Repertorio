@@ -1,0 +1,35 @@
+{
+    "name": "Bass part",
+    "fieldtype": "0c80df15-52c6-4647-983b-4bb4888a2edf",
+    "datatype": "VARCHAR",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"filelist\"\n\tname=\"bass_part\"\n\tlabel=\"Bass part\"\n\tdirectory=\"files\/coro_della_svolta\/parts\"\n\tdefault=\"\"\n\tdescription=\"Choose an image from your computer with maximum 100KB\"\n\tfilter=\"\"\n\texclude=\"\"\n\tstripext=\"\"\n\thide_none=\"\"\n\thide_default=\"\"\n\tshowon=\"\"\n\tvalidate=\"\"\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "14f0aad5-5c25-4b92-bc16-3fa0265dbe6f",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "0c80df15-52c6-4647-983b-4bb4888a2edf",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
