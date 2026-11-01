@@ -1,0 +1,35 @@
+{
+    "name": "Places indoor",
+    "fieldtype": "fdbb50ea-35d2-45b2-a0bc-076fdf1544b8",
+    "datatype": "INT",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"integer\"\n\tname=\"places_indoor\"\n\tlabel=\"Places indoor\"\n\tdefault=\"\"\n\tmessage=\"\"\n\tdescription=\"\"\n\tclass=\"text_area\"\n\trequired=\"\"\n\tvalidate=\"\"\n\tfirst=\"0\"\n\tlast=\"100\"\n\tstep=\"1\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
+    "datalenght": "7",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "00ea1e01-ff68-4feb-8649-68c63d4e062c",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "fdbb50ea-35d2-45b2-a0bc-076fdf1544b8",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
