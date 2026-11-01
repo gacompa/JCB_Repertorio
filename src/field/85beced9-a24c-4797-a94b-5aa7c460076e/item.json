@@ -1,0 +1,35 @@
+{
+    "name": "Electricity_checkbox",
+    "fieldtype": "10066262-b6e3-4f82-941e-cbe4f61ddd6c",
+    "datatype": "VARCHAR",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"checkbox\"\n\tname=\"electricity_checkbox\"\n\tlabel=\"Is electricity available\"\n\tvalue=\"1\"\n\trequired=\"false\"\n\tdescription=\"Is electricity available\"\n\tclass=\"inputbox\"\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "85beced9-a24c-4797-a94b-5aa7c460076e",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "10066262-b6e3-4f82-941e-cbe4f61ddd6c",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
