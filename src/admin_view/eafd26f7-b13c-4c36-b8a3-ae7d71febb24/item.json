@@ -1,0 +1,172 @@
+{
+    "system_name": "Locations",
+    "name_single": "Location",
+    "short_description": "List of locations",
+    "php_postsavehook": "",
+    "php_before_save": "",
+    "php_getlistquery": "",
+    "php_getitems": "",
+    "ajax_input": null,
+    "source": 2,
+    "icon": "images\/com_bookings\/Icons\/camping-icon.png#joomlaImage:\/\/local-images\/com_bookings\/Icons\/camping-icon.png?width=100&height=100",
+    "php_batchmove": "",
+    "add_fadein": 1,
+    "description": "Locations are places where to sleep (either indoor or outdoor) or places encountered during walking.\r\nWhen a location is intended for sleeping it is called a stop.\r\nIn some locations where a base is not present camping is usually tolerated in the form of \"bivacco alpino\", meaning that tents can be mounted at sunset and must be cleared at the following sunrise. \r\nBases are locations owned by some scout association, giving services. Usually managed by a team of volunteers. ",
+    "icon_category": "",
+    "icon_add": "images\/com_bookings\/Icons\/add-camping-icon.png#joomlaImage:\/\/local-images\/com_bookings\/Icons\/add-camping-icon.png?width=512&height=512",
+    "php_allowedit": "",
+    "php_after_delete": "",
+    "php_after_cancel": "",
+    "type": 1,
+    "php_after_publish": "",
+    "mysql_table_charset": "utf8mb4",
+    "name_list": "Locations",
+    "addpermissions": {
+        "addpermissions0": {
+            "action": "view.edit",
+            "implementation": 3
+        },
+        "addpermissions1": {
+            "action": "view.edit.own",
+            "implementation": 3
+        },
+        "addpermissions2": {
+            "action": "view.edit.state",
+            "implementation": 3
+        },
+        "addpermissions3": {
+            "action": "view.edit.access",
+            "implementation": 3
+        },
+        "addpermissions4": {
+            "action": "view.edit.created_by",
+            "implementation": 3
+        },
+        "addpermissions5": {
+            "action": "view.edit.created",
+            "implementation": 3
+        },
+        "addpermissions6": {
+            "action": "view.create",
+            "implementation": 3
+        },
+        "addpermissions7": {
+            "action": "view.delete",
+            "implementation": 3
+        },
+        "addpermissions8": {
+            "action": "view.access",
+            "implementation": 3
+        },
+        "addpermissions9": {
+            "action": "core.create",
+            "implementation": 3
+        }
+    },
+    "php_getitem": "",
+    "php_getitems_after_all": "[CUSTOMCODE=getPlaceAltitude]",
+    "addtabs": {
+        "addtabs0": {
+            "name": "Details"
+        },
+        "addtabs1": {
+            "name": "Facilities"
+        },
+        "addtabs2": {
+            "name": "Admininstration"
+        }
+    },
+    "php_getform": "",
+    "php_save": "",
+    "php_allowadd": "",
+    "addlinked_views": null,
+    "php_before_cancel": "",
+    "php_batchcopy": "",
+    "alias_builder_type": 0,
+    "php_before_publish": "",
+    "php_before_delete": "",
+    "php_document": "",
+    "alias_builder": null,
+    "mysql_table_row_format": "DYNAMIC",
+    "sql": "--\r\n-- Dump dei dati per la tabella `#__bookings_location`\r\n--\r\n\r\nINSERT INTO `#__bookings_location` (`id`, `asset_id`, `camp_fire_checkbox`, `camp_fire_comments`, `credits`, `description`, `electricity_checkbox`, `electricity_comments`, `heating_checkbox`, `heating_comments`, `image`, `is_base`, `is_stop`, `kitchen_checkbox`, `kitchen_comments`, `location`, `longdescription`, `name`, `phone`, `place_altitude`, `place_id`, `places_indoor`, `places_outdoor`, `rest_room_checkbox`, `rest_room_comments`, `security_rules`, `water_checkbox`, `water_comments`, `params`, `published`, `created_by`, `modified_by`, `created`, `modified`, `checked_out`, `checked_out_time`, `version`, `hits`, `ordering`) VALUES\r\n(1, 885, '1', 'Cerchio per fuoco di bivacco sul greto del fiume. Ci sono griglie per cucina all\\'esterno', 'Unknown', 'La storica base scout della val Codera dal 2004', '1', 'Solo per ricarica cellulari', '', '', 'images\/com_bookings\/Locations\/Centralina.jpg#joomlaImage:\/\/local-images\/com_bookings\/Locations\/Centralina.jpg?width=640&height=480', '1', '1', '1', 'Cucina economica e cucina a gas. Ci sono pentole e stoviglie.', 'Codera, localit\u00e0 Corte', '<p><span style=\\\"color: rgb(34, 38, 42); font-family: Roboto, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\\\">La Centralina \u00e8 situata poco oltre il paese di Codera, a 850 m., aperta tutto l\u2019anno, a circa 3 ore di cammino dalla stazione ferroviaria di Novate Mezzola. Ha posti letto all\u2019interno e alcune piazzole per tende all\u2019esterno, con bagni, cucina, acqua potabile, stufa a legna, fuoco di bivacco. Adatta a uscite, campetti invernali e tappe di route (obbligatoria la tenda da Pasqua ai Morti) per unit\u00e0 RS e Alte Squadriglie.<\/span><\/p>', 'Centralina', '', 0, '2', 18, 25, '1', '2 bagni esterni ed 1 interno', '', '1', '', NULL, 1, 580, 580, '2025-08-17 16:07:32', '2025-10-22 07:23:24', 0, '0000-00-00 00:00:00', 4, 0, 1),\r\n(2, 886, '1', 'Vari cerchi per fuoco di bivacco', 'Unknown', 'Dal 2009 la seconda base della val Codera', '1', 'Rete 220 v', '', '', 'images\/com_bookings\/Locations\/Casera.jpg#joomlaImage:\/\/local-images\/com_bookings\/Locations\/Casera.jpg?width=2000&height=1330', '1', '1', '1', 'Cucina economica e cucina a gas. Ci sono pentole e stoviglie.', 'Bresciadega, verso il rifugio Brasca', '<div class=\\\"com-content-article__body\\\" style=\\\"box-sizing: border-box; color: rgb(34, 38, 42); font-family: Roboto, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\\\">\\r\\n<p style=\\\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem;\\\">La Casera, poco oltre l\u2019alpe Bresciadega, a 1250 m., \u00e8 aperta solitamente dalla primavera all\u2019autunno (ma eccezionalmente anche d\u2019inverno), a circa 2 ore di cammino dalla Centralina. Offre la possibilit\u00e0 di pernottamento all\u2019interno d\u2019inverno e in tenda con la bella stagione, dispone di bagni, cucina, acqua potabile, camino, stufa, fuoco di bivacco, pali da costruzione. Adatta a uscite e tappe di route RS e campi estivi di reparto.<\/p>\\r\\n<\/div>', 'Casera', '', 0, '3', 10, 25, '1', '4 bagni esterni', '', '1', '', NULL, 1, 580, 580, '2025-08-17 16:09:06', '2025-10-22 07:23:46', 0, '0000-00-00 00:00:00', 2, 0, 2),\r\n(3, 529, '', '', 'Unknown', '', '', '', '', '', 'images\/com_bookings\/Locations\/Baita_Romilda.jpg#joomlaImage:\/\/local-images\/com_bookings\/Locations\/Baita_Romilda.jpg?width=1600&height=1200', '1', '', '', '', 'La baita di Romilda del Pra', '', 'Baita Romilda (BROM)', '', 0, '4', 2, 0, '1', '', '', '1', '', NULL, 1, 580, NULL, '2025-08-17 16:32:02', NULL, NULL, NULL, 1, 0, 3),\r\n(4, 530, '', '', 'Unknown', 'Alpeggio', '', '', '', '', 'images\/com_bookings\/Locations\/Sivigia.jpg#joomlaImage:\/\/local-images\/com_bookings\/Locations\/Sivigia.jpg?width=1500&height=1000', '', '1', '', '', 'Alpeggio a Sivigia', '', 'Sivigia', '', 0, '20', 0, 0, '', '', '', '', '', NULL, 1, 580, NULL, '2025-08-17 16:33:06', NULL, NULL, NULL, 1, 0, 4);\r\n",
+    "add_category_submenu": 1,
+    "php_ajaxmethod": "",
+    "add_php_getitem": 0,
+    "add_php_getitems": 0,
+    "add_css_view": 0,
+    "add_php_getitems_after_all": 1,
+    "css_view": "",
+    "add_php_getlistquery": 0,
+    "add_css_views": 0,
+    "add_php_getform": 0,
+    "css_views": "",
+    "add_php_before_save": 0,
+    "add_javascript_view_file": 0,
+    "add_php_save": 0,
+    "javascript_view_file": "",
+    "add_php_postsavehook": 0,
+    "add_javascript_view_footer": 0,
+    "add_php_allowadd": 0,
+    "javascript_view_footer": "",
+    "add_php_allowedit": 0,
+    "add_javascript_views_file": 0,
+    "add_php_before_cancel": 0,
+    "javascript_views_file": "",
+    "add_php_after_cancel": 0,
+    "add_javascript_views_footer": 1,
+    "add_php_batchcopy": 0,
+    "javascript_views_footer": "jQuery(document).ready(function($){\r\n   $('#locationList tbody tr td:nth-child(3)').each(function(){\r\n      var imgPath = '<?php echo JURI::root(true). \"\/\";?>' + $(this).text();\r\n      $(this).html('<img rel=\"popover\" src=\"'+ imgPath +'\" width=\"100\" data-img=\"'+ imgPath +'\" \/>');\r\n   });\r\n});",
+    "add_php_batchmove": 0,
+    "add_custom_button": 0,
+    "add_php_before_publish": 0,
+    "custom_button": null,
+    "add_php_after_publish": 0,
+    "php_controller": "",
+    "add_php_before_delete": 0,
+    "php_model": "",
+    "add_php_after_delete": 0,
+    "php_controller_list": "",
+    "add_php_document": 0,
+    "php_model_list": "",
+    "mysql_table_engine": "InnoDB",
+    "add_view_toolbar": 0,
+    "mysql_table_collate": "utf8mb4_unicode_ci",
+    "view_toolbar": null,
+    "add_sql": 1,
+    "add_views_toolbar": 0,
+    "views_toolbar": null,
+    "guid": "eafd26f7-b13c-4c36-b8a3-ae7d71febb24",
+    "add_php_ajax": 0,
+    "@dependencies": [
+        {
+            "key": "admin_view",
+            "value": "eafd26f7-b13c-4c36-b8a3-ae7d71febb24",
+            "entity": "admin_fields",
+            "table": "#__componentbuilder_admin_fields",
+            "direction": "in"
+        },
+        {
+            "key": "function_name",
+            "value": "getPlaceAltitude",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "0eb6089f-d432-5b80-a66b-ee56456f044c.png",
+            "pointer": "0eb6089f-d432-5b80-a66b-ee56456f044c--png",
+            "value": "images\/com_bookings\/Icons\/camping-icon.png",
+            "entity": "file",
+            "table": "file_system",
+            "target": "images"
+        },
+        {
+            "key": "2e9bbe6c-6525-5ce4-9806-ec0e32fa8e4a.png",
+            "pointer": "2e9bbe6c-6525-5ce4-9806-ec0e32fa8e4a--png",
+            "value": "images\/com_bookings\/Icons\/add-camping-icon.png",
+            "entity": "file",
+            "table": "file_system",
+            "target": "images"
+        }
+    ]
+}
