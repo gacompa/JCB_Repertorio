@@ -1,0 +1,151 @@
+{
+    "joomla_component": "2f178bc9-ea50-466d-8463-fcad5ca93908",
+    "addsite_views": {
+        "addsite_views0": {
+            "siteview": "715839f3-0de7-4b1f-a94e-aca0954d03b9",
+            "default_view": "1",
+            "public_access": "1"
+        },
+        "addsite_views1": {
+            "siteview": "d6f6a358-be9d-49d0-931e-ac2cbe37ba38",
+            "menu": "1",
+            "public_access": "1"
+        },
+        "addsite_views2": {
+            "siteview": "e6bc3a5f-909e-493c-ba8a-6a79b555b2f7",
+            "menu": "1",
+            "public_access": "1"
+        },
+        "addsite_views3": {
+            "siteview": "df889519-71e3-40be-b74a-5abdbff5c003",
+            "menu": "1",
+            "public_access": "1"
+        },
+        "addsite_views4": {
+            "siteview": "379b089a-e018-4fa9-9c42-c792a414beff",
+            "menu": "1"
+        },
+        "addsite_views5": {
+            "siteview": "47acca5d-c194-47fe-8961-0c849fcadbe0",
+            "menu": "1",
+            "public_access": "1"
+        },
+        "addsite_views6": {
+            "siteview": "f1681276-fff6-4dab-bc58-2b229d83316f",
+            "menu": "1"
+        },
+        "addsite_views7": {
+            "siteview": "d8443ac1-247d-4f5a-813a-6c71400a4294",
+            "menu": "1"
+        },
+        "addsite_views8": {
+            "siteview": "e8a6f606-582c-41d6-b0b0-147d1c75c7ca",
+            "menu": "1"
+        },
+        "addsite_views9": {
+            "siteview": "13989926-5894-4344-83dc-fba6eff3b3af",
+            "menu": "1"
+        },
+        "addsite_views10": {
+            "siteview": "7d637624-7dd1-4f4e-a7aa-cfc7d333ded0",
+            "menu": "1"
+        },
+        "addsite_views11": {
+            "siteview": "ba21a497-c1a5-40c2-a486-3d637bb1a9a5",
+            "menu": "1"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "2f178bc9-ea50-466d-8463-fcad5ca93908",
+            "entity": "joomla_component",
+            "table": "#__componentbuilder_joomla_component",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "715839f3-0de7-4b1f-a94e-aca0954d03b9",
+            "entity": "site_view",
+            "table": "#__componentbuilder_site_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "d6f6a358-be9d-49d0-931e-ac2cbe37ba38",
+            "entity": "site_view",
+            "table": "#__componentbuilder_site_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "e6bc3a5f-909e-493c-ba8a-6a79b555b2f7",
+            "entity": "site_view",
+            "table": "#__componentbuilder_site_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "df889519-71e3-40be-b74a-5abdbff5c003",
+            "entity": "site_view",
+            "table": "#__componentbuilder_site_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "379b089a-e018-4fa9-9c42-c792a414beff",
+            "entity": "site_view",
+            "table": "#__componentbuilder_site_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "47acca5d-c194-47fe-8961-0c849fcadbe0",
+            "entity": "site_view",
+            "table": "#__componentbuilder_site_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "f1681276-fff6-4dab-bc58-2b229d83316f",
+            "entity": "site_view",
+            "table": "#__componentbuilder_site_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "d8443ac1-247d-4f5a-813a-6c71400a4294",
+            "entity": "site_view",
+            "table": "#__componentbuilder_site_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "e8a6f606-582c-41d6-b0b0-147d1c75c7ca",
+            "entity": "site_view",
+            "table": "#__componentbuilder_site_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "13989926-5894-4344-83dc-fba6eff3b3af",
+            "entity": "site_view",
+            "table": "#__componentbuilder_site_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "7d637624-7dd1-4f4e-a7aa-cfc7d333ded0",
+            "entity": "site_view",
+            "table": "#__componentbuilder_site_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "ba21a497-c1a5-40c2-a486-3d637bb1a9a5",
+            "entity": "site_view",
+            "table": "#__componentbuilder_site_view",
+            "direction": "out"
+        }
+    ]
+}
