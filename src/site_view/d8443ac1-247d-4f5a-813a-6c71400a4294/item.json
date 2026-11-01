@@ -1,0 +1,63 @@
+{
+    "system_name": "Footpaths list",
+    "name": "Footpaths list",
+    "description": "List of Footpaths",
+    "main_get": "644bb7c7-eb28-4a5e-8955-5d707d3b638d",
+    "add_php_view": 1,
+    "php_ajaxmethod": "<!-- text to be inserted in .ini file for site view -->\r\nJust get COM_BOOKINGS_IMAGE language string: JustTEXT::_('Image');\r\nJust get COM_BOOKINGS_NAME language string: JustTEXT::_('Name');\r\nJust get COM_BOOKINGS_LOCATION language string: <?php  JustTEXT::_('Location'); ?>\r\nJust get COM_BOOKINGS_ALTITUDE language string: <?php  JustTEXT::_('Altitude'); ?>\r\nJust get COM_BOOKINGS_IS_STOP language string: <?php  JustTEXT::_('Is stop'); ?>\r\nJust get COM_BOOKINGS_IS_BASE language string: <?php  JustTEXT::_('Is base'); ?>",
+    "add_php_document": 0,
+    "javascript_file": "",
+    "view_toolbar": null,
+    "context": "footpaths_list",
+    "default": "<?php JustTEXT::_('Footpaths'); ?>\r\n\r\n<form action=\"<?php echo Route::_('index.php?option=com_bookings'); ?>\" method=\"post\" name=\"adminForm\" id=\"adminForm\">\r\n<?php echo $this->toolbar->render(); ?>\r\n<?php echo LayoutHelper::render('rowslocations', []); ?>\r\n\r\n<table class=\"uk-table uk-table-hover\">\r\n    <thead>\r\n        <tr>\r\n        <th><?php echo Text::_('COM_BOOKINGS_FOOTPATHS'); ?><\/th>\r\n        <\/tr>\r\n    <\/thead>\r\n    <tbody>\r\n        <?php foreach ($this->items as $item): ?>\r\n        <tr>\r\n        <td>\r\n\t\t<!-- Put here the route for the one-footpath view, i.e. index.php\/booking\/footpath-single -->\r\n    \t<div class=\"top-bar\">\r\n    \t    <?php $link_singolo = Route::_('index.php?option=com_bookings&view=footpath_single&id='. $item->id); ?>\r\n    \t    <?php echo \"<a href=\\\"$link_singolo\\\"> $item->footpath<\/a>\"; ?>  \r\n    \t<\/div>\r\n        <\/td>\r\n        <\/tr>\r\n        <?php endforeach; ?>\r\n    <\/tbody>\r\n<\/table>\r\n\r\n<?php if (isset($this->items) && isset($this->pagination) && isset($this->pagination->pagesTotal) && $this->pagination->pagesTotal > 1): ?>\r\n\t<div class=\"pagination\">\r\n\t\t<?php if ($this->params->def('show_pagination_results', 1)) : ?>\r\n\t\t\t<p class=\"counter pull-right\"> <?php echo $this->pagination->getPagesCounter(); ?> <?php echo $this->pagination->getLimitBox(); ?><\/p>\r\n\t\t<?php endif; ?>\r\n\t\t<?php echo $this->pagination->getPagesLinks(); ?>\r\n\t<\/div>\r\n<?php endif; ?>\r\n<input type=\"hidden\" name=\"task\" value=\"\" \/>\r\n<?php echo Html::_('form.token'); ?>\r\n<\/form>\r\n",
+    "snippet": "0",
+    "add_php_jview_display": 1,
+    "custom_get": null,
+    "add_php_jview": 1,
+    "js_document": "",
+    "codename": "footpaths_list",
+    "css_document": "",
+    "add_javascript_file": 0,
+    "css": "table, th, td {\r\n  border: 1px solid;\r\n  word-break: break-all;\r\n}",
+    "add_js_document": 0,
+    "libraries": null,
+    "add_css_document": 0,
+    "dynamic_get": "f991fa54-d452-4787-9da7-13762000f8f7",
+    "add_css": 1,
+    "add_php_ajax": 1,
+    "add_custom_button": 0,
+    "ajax_input": null,
+    "button_position": 2,
+    "php_document": "",
+    "php_view": "use Joomla\\CMS\\Uri\\Uri;\r\n",
+    "custom_button": null,
+    "php_jview_display": "",
+    "php_controller": "",
+    "php_jview": "",
+    "php_model": "",
+    "guid": "d8443ac1-247d-4f5a-813a-6c71400a4294",
+    "add_view_toolbar": 0,
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "644bb7c7-eb28-4a5e-8955-5d707d3b638d",
+            "entity": "dynamic_get",
+            "table": "#__componentbuilder_dynamic_get",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "f991fa54-d452-4787-9da7-13762000f8f7",
+            "entity": "dynamic_get",
+            "table": "#__componentbuilder_dynamic_get",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "db6c9fbf-fcbd-4d18-8415-d6ea71f87136",
+            "entity": "layout",
+            "table": "#__componentbuilder_layout",
+            "direction": "out"
+        }
+    ]
+}
