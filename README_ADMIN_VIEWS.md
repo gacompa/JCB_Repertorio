@@ -46,6 +46,7 @@ This ensures maintainability while still allowing total customization per projec
 
 
  - **Concerts** | [Details](src/admin_view/0297b9d9-f541-4e76-bb24-e8d3cb28ab4c) | [Settings](src/admin_view/0297b9d9-f541-4e76-bb24-e8d3cb28ab4c/item.json) | Concert
+ - **Footpaths** | [Details](src/admin_view/858b0999-8350-46a5-9c4e-e0e715aa8b1a) | [Settings](src/admin_view/858b0999-8350-46a5-9c4e-e0e715aa8b1a/item.json) | A footpath is a narrow way, often through fields or woods.
  - **Pieces** | [Details](src/admin_view/b38490e3-b6a5-4b1a-93d4-274ff7754b71) | [Settings](src/admin_view/b38490e3-b6a5-4b1a-93d4-274ff7754b71/item.json) | A piece of choral music
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
