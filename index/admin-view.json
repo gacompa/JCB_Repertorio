@@ -26,5 +26,26 @@
         "settings": "src\/admin_view\/eafd26f7-b13c-4c36-b8a3-ae7d71febb24\/item.json",
         "guid": "eafd26f7-b13c-4c36-b8a3-ae7d71febb24",
         "desc": "List of locations"
+    },
+    "55aac7da-e105-4ab2-9c34-6ee44e8b692c": {
+        "name": "Places",
+        "path": "src\/admin_view\/55aac7da-e105-4ab2-9c34-6ee44e8b692c",
+        "settings": "src\/admin_view\/55aac7da-e105-4ab2-9c34-6ee44e8b692c\/item.json",
+        "guid": "55aac7da-e105-4ab2-9c34-6ee44e8b692c",
+        "desc": "The list of places managed by this component."
+    },
+    "68afc434-c4fc-48e6-8133-ddf9b5997ca5": {
+        "name": "Presences",
+        "path": "src\/admin_view\/68afc434-c4fc-48e6-8133-ddf9b5997ca5",
+        "settings": "src\/admin_view\/68afc434-c4fc-48e6-8133-ddf9b5997ca5\/item.json",
+        "guid": "68afc434-c4fc-48e6-8133-ddf9b5997ca5",
+        "desc": "The *actual* number o f people sleeping in one location"
+    },
+    "e2a073f0-4550-4e45-93a0-973c2b7c5732": {
+        "name": "Treks",
+        "path": "src\/admin_view\/e2a073f0-4550-4e45-93a0-973c2b7c5732",
+        "settings": "src\/admin_view\/e2a073f0-4550-4e45-93a0-973c2b7c5732\/item.json",
+        "guid": "e2a073f0-4550-4e45-93a0-973c2b7c5732",
+        "desc": "Paths"
     }
 }
