@@ -1,0 +1,14 @@
+{
+    "0297b9d9-f541-4e76-bb24-e8d3cb28ab4c": {
+        "name": "0297b9d9-f541-4e76-bb24-e8d3cb28ab4c",
+        "path": "src\/admin_view\/children\/0297b9d9-f541-4e76-bb24-e8d3cb28ab4c",
+        "settings": "src\/admin_view\/children\/0297b9d9-f541-4e76-bb24-e8d3cb28ab4c\/admin-fields.json",
+        "guid": "0297b9d9-f541-4e76-bb24-e8d3cb28ab4c"
+    },
+    "b38490e3-b6a5-4b1a-93d4-274ff7754b71": {
+        "name": "b38490e3-b6a5-4b1a-93d4-274ff7754b71",
+        "path": "src\/admin_view\/children\/b38490e3-b6a5-4b1a-93d4-274ff7754b71",
+        "settings": "src\/admin_view\/children\/b38490e3-b6a5-4b1a-93d4-274ff7754b71\/admin-fields.json",
+        "guid": "b38490e3-b6a5-4b1a-93d4-274ff7754b71"
+    }
+}
