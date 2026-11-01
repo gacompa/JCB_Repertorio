@@ -58,6 +58,7 @@ This makes them ideal for distributed teams, client-specific forks, and open-sou
 ### Index of Joomla Components
 
 
+ - **Bookings** | [Details](src/joomla_component/2f178bc9-ea50-466d-8463-fcad5ca93908) | [Settings](src/joomla_component/2f178bc9-ea50-466d-8463-fcad5ca93908/item.json) | Management of bookings for hikes or routes
  - **Repertorio** | [Details](src/joomla_component/a4881d3a-6a19-43fd-9c0f-7cbf2071a371) | [Settings](src/joomla_component/a4881d3a-6a19-43fd-9c0f-7cbf2071a371/item.json) | Repertorio musicale di coro
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
