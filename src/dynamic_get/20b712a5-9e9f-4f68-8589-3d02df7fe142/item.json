@@ -1,0 +1,76 @@
+{
+    "name": "Locations_map",
+    "main_source": 1,
+    "gettype": 2,
+    "php_calculation": "",
+    "php_router_parse": null,
+    "add_php_after_getitems": 1,
+    "add_php_router_parse": 0,
+    "view_selection": "a.id AS id\r\na.asset_id AS asset_id\r\na.image AS image\r\na.place_id AS place_id\r\na.name AS name\r\na.location AS location\r\na.description AS description\r\na.place_altitude AS place_altitude\r\na.longdescription AS longdescription\r\na.is_base AS is_base\r\na.is_stop AS is_stop\r\na.phone AS phone\r\na.security_rules AS security_rules\r\na.credits AS credits\r\na.places_indoor AS places_indoor\r\na.places_outdoor AS places_outdoor\r\na.rest_room_checkbox AS rest_room_checkbox\r\na.rest_room_comments AS rest_room_comments\r\na.heating_checkbox AS heating_checkbox\r\na.heating_comments AS heating_comments\r\na.water_checkbox AS water_checkbox\r\na.water_comments AS water_comments\r\na.electricity_checkbox AS electricity_checkbox\r\na.electricity_comments AS electricity_comments\r\na.kitchen_checkbox AS kitchen_checkbox\r\na.kitchen_comments AS kitchen_comments\r\na.camp_fire_checkbox AS camp_fire_checkbox\r\na.camp_fire_comments AS camp_fire_comments\r\na.published AS published\r\na.created_by AS created_by\r\na.modified_by AS modified_by\r\na.created AS created\r\na.modified AS modified\r\na.version AS version\r\na.hits AS hits\r\na.ordering AS ordering",
+    "add_php_before_getitems": 0,
+    "add_php_before_getitem": 0,
+    "add_php_after_getitem": 0,
+    "db_table_main": null,
+    "php_custom_get": null,
+    "plugin_events": null,
+    "db_selection": null,
+    "view_table_main": "eafd26f7-b13c-4c36-b8a3-ae7d71febb24",
+    "add_php_getlistquery": 0,
+    "join_db_table": null,
+    "select_all": 0,
+    "php_before_getitem": "",
+    "getcustom": "",
+    "php_after_getitem": "",
+    "pagination": 1,
+    "php_getlistquery": "\/\/  Add PHP (getListQuery - JModelList) * ",
+    "php_before_getitems": "\/\/  Add PHP (before getting the Items) * \r\n\r\n\/\/ Seleziona i campi dalla tabella JOINATA (#__bookings_place)\r\n$query->select($db->quoteName('b.latitude', 'latitude'));\r\n$query->select($db->quoteName('b.longitude', 'longitude'));\r\n",
+    "filter": null,
+    "php_after_getitems": "[CUSTOMCODE=getPlaceCoordinates]\r\n\r\n",
+    "where": {
+        "where0": {
+            "table_key": "a.published",
+            "operator": 1,
+            "value_key": "1"
+        }
+    },
+    "order": null,
+    "addcalculation": 0,
+    "group": null,
+    "global": null,
+    "guid": "20b712a5-9e9f-4f68-8589-3d02df7fe142",
+    "join_view_table": {
+        "join_view_table0": {
+            "view_table": "55aac7da-e105-4ab2-9c34-6ee44e8b692c",
+            "row_type": 1,
+            "as": "b",
+            "type": 1,
+            "on_field": "a.place_id",
+            "operator": 1,
+            "join_field": "b.id",
+            "selection": "b.altitude AS place_altitude\r\nb.latitude AS place_latitude\r\n"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "eafd26f7-b13c-4c36-b8a3-ae7d71febb24",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "55aac7da-e105-4ab2-9c34-6ee44e8b692c",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "getPlaceCoordinates",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        }
+    ]
+}
