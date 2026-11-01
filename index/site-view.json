@@ -1,0 +1,37 @@
+{
+    "140407ee-4631-4cd3-a04d-7cdc26fc8061": {
+        "name": "Select piece",
+        "desc": "The form to identify the required piece in the list, the ID will be passed to the display page",
+        "path": "src\/site_view\/140407ee-4631-4cd3-a04d-7cdc26fc8061",
+        "settings": "src\/site_view\/140407ee-4631-4cd3-a04d-7cdc26fc8061\/item.json",
+        "guid": "140407ee-4631-4cd3-a04d-7cdc26fc8061"
+    },
+    "1af8efa1-f4dd-4f10-ab34-4e4b1070c46d": {
+        "name": "Piece single",
+        "desc": "Show the data of a single piece",
+        "path": "src\/site_view\/1af8efa1-f4dd-4f10-ab34-4e4b1070c46d",
+        "settings": "src\/site_view\/1af8efa1-f4dd-4f10-ab34-4e4b1070c46d\/item.json",
+        "guid": "1af8efa1-f4dd-4f10-ab34-4e4b1070c46d"
+    },
+    "96f146c6-0957-4ad5-a353-8056728dd4fb": {
+        "name": "Pieces list",
+        "desc": "List of Pieces",
+        "path": "src\/site_view\/96f146c6-0957-4ad5-a353-8056728dd4fb",
+        "settings": "src\/site_view\/96f146c6-0957-4ad5-a353-8056728dd4fb\/item.json",
+        "guid": "96f146c6-0957-4ad5-a353-8056728dd4fb"
+    },
+    "cfeb89a2-1f80-457e-82c9-a3fe8ca80f20": {
+        "name": "App Select piece",
+        "desc": "The form to identify the required piece in the list, the ID will be passed to the display page",
+        "path": "src\/site_view\/cfeb89a2-1f80-457e-82c9-a3fe8ca80f20",
+        "settings": "src\/site_view\/cfeb89a2-1f80-457e-82c9-a3fe8ca80f20\/item.json",
+        "guid": "cfeb89a2-1f80-457e-82c9-a3fe8ca80f20"
+    },
+    "e46f60a7-ec6a-4cab-9f94-c6c65f206a27": {
+        "name": "App Piece single",
+        "desc": "Show the data of a single piece",
+        "path": "src\/site_view\/e46f60a7-ec6a-4cab-9f94-c6c65f206a27",
+        "settings": "src\/site_view\/e46f60a7-ec6a-4cab-9f94-c6c65f206a27\/item.json",
+        "guid": "e46f60a7-ec6a-4cab-9f94-c6c65f206a27"
+    }
+}
