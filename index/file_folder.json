@@ -1,0 +1,17 @@
+{
+    "cc45985c-e21f-59bf-938f-3dd2666088ca.txt": {
+        "name": "joomla_basic.txt",
+        "path": "src\/file_folder\/cc45985c-e21f-59bf-938f-3dd2666088ca.txt",
+        "guid": "cc45985c-e21f-59bf-938f-3dd2666088ca.txt"
+    },
+    "03252fe0-3d2d-5aa8-84cd-2971b7223487.png": {
+        "name": "images\/com_repertorio\/icons\/folder-music-icon.png",
+        "path": "src\/file_folder\/03252fe0-3d2d-5aa8-84cd-2971b7223487.png",
+        "guid": "03252fe0-3d2d-5aa8-84cd-2971b7223487.png"
+    },
+    "1fe4066d-d9ec-59e4-b69e-132d2e30de81.png": {
+        "name": "images\/com_repertorio\/icons\/music-files-icon.png",
+        "path": "src\/file_folder\/1fe4066d-d9ec-59e4-b69e-132d2e30de81.png",
+        "guid": "1fe4066d-d9ec-59e4-b69e-132d2e30de81.png"
+    }
+}
