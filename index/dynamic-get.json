@@ -22,5 +22,41 @@
         "path": "src\/dynamic_get\/e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c",
         "settings": "src\/dynamic_get\/e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c\/item.json",
         "guid": "e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c"
+    },
+    "1e2cec82-ed8b-4d44-aac1-079cd2b9ddb7": {
+        "name": "OneFootpath",
+        "path": "src\/dynamic_get\/1e2cec82-ed8b-4d44-aac1-079cd2b9ddb7",
+        "settings": "src\/dynamic_get\/1e2cec82-ed8b-4d44-aac1-079cd2b9ddb7\/item.json",
+        "guid": "1e2cec82-ed8b-4d44-aac1-079cd2b9ddb7"
+    },
+    "20b712a5-9e9f-4f68-8589-3d02df7fe142": {
+        "name": "Locations_map",
+        "path": "src\/dynamic_get\/20b712a5-9e9f-4f68-8589-3d02df7fe142",
+        "settings": "src\/dynamic_get\/20b712a5-9e9f-4f68-8589-3d02df7fe142\/item.json",
+        "guid": "20b712a5-9e9f-4f68-8589-3d02df7fe142"
+    },
+    "3be68f12-de47-4363-8f2e-678d788c12d4": {
+        "name": "OneLocation",
+        "path": "src\/dynamic_get\/3be68f12-de47-4363-8f2e-678d788c12d4",
+        "settings": "src\/dynamic_get\/3be68f12-de47-4363-8f2e-678d788c12d4\/item.json",
+        "guid": "3be68f12-de47-4363-8f2e-678d788c12d4"
+    },
+    "644bb7c7-eb28-4a5e-8955-5d707d3b638d": {
+        "name": "Footpaths_published",
+        "path": "src\/dynamic_get\/644bb7c7-eb28-4a5e-8955-5d707d3b638d",
+        "settings": "src\/dynamic_get\/644bb7c7-eb28-4a5e-8955-5d707d3b638d\/item.json",
+        "guid": "644bb7c7-eb28-4a5e-8955-5d707d3b638d"
+    },
+    "90cb8f6b-8960-48f4-9536-7a30b0467117": {
+        "name": "Map",
+        "path": "src\/dynamic_get\/90cb8f6b-8960-48f4-9536-7a30b0467117",
+        "settings": "src\/dynamic_get\/90cb8f6b-8960-48f4-9536-7a30b0467117\/item.json",
+        "guid": "90cb8f6b-8960-48f4-9536-7a30b0467117"
+    },
+    "b9f88c0d-c1e5-470e-8f30-b0394ee1aff6": {
+        "name": "Presences",
+        "path": "src\/dynamic_get\/b9f88c0d-c1e5-470e-8f30-b0394ee1aff6",
+        "settings": "src\/dynamic_get\/b9f88c0d-c1e5-470e-8f30-b0394ee1aff6\/item.json",
+        "guid": "b9f88c0d-c1e5-470e-8f30-b0394ee1aff6"
     }
 }
