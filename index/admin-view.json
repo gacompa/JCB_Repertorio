@@ -1,0 +1,16 @@
+{
+    "0297b9d9-f541-4e76-bb24-e8d3cb28ab4c": {
+        "name": "Concerts",
+        "path": "src\/admin_view\/0297b9d9-f541-4e76-bb24-e8d3cb28ab4c",
+        "settings": "src\/admin_view\/0297b9d9-f541-4e76-bb24-e8d3cb28ab4c\/item.json",
+        "guid": "0297b9d9-f541-4e76-bb24-e8d3cb28ab4c",
+        "desc": "Concert"
+    },
+    "b38490e3-b6a5-4b1a-93d4-274ff7754b71": {
+        "name": "Pieces",
+        "path": "src\/admin_view\/b38490e3-b6a5-4b1a-93d4-274ff7754b71",
+        "settings": "src\/admin_view\/b38490e3-b6a5-4b1a-93d4-274ff7754b71\/item.json",
+        "guid": "b38490e3-b6a5-4b1a-93d4-274ff7754b71",
+        "desc": "A piece of choral music"
+    }
+}
