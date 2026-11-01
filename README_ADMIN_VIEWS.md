@@ -49,6 +49,9 @@ This ensures maintainability while still allowing total customization per projec
  - **Footpaths** | [Details](src/admin_view/858b0999-8350-46a5-9c4e-e0e715aa8b1a) | [Settings](src/admin_view/858b0999-8350-46a5-9c4e-e0e715aa8b1a/item.json) | A footpath is a narrow way, often through fields or woods.
  - **Locations** | [Details](src/admin_view/eafd26f7-b13c-4c36-b8a3-ae7d71febb24) | [Settings](src/admin_view/eafd26f7-b13c-4c36-b8a3-ae7d71febb24/item.json) | List of locations
  - **Pieces** | [Details](src/admin_view/b38490e3-b6a5-4b1a-93d4-274ff7754b71) | [Settings](src/admin_view/b38490e3-b6a5-4b1a-93d4-274ff7754b71/item.json) | A piece of choral music
+ - **Places** | [Details](src/admin_view/55aac7da-e105-4ab2-9c34-6ee44e8b692c) | [Settings](src/admin_view/55aac7da-e105-4ab2-9c34-6ee44e8b692c/item.json) | The list of places managed by this component.
+ - **Presences** | [Details](src/admin_view/68afc434-c4fc-48e6-8133-ddf9b5997ca5) | [Settings](src/admin_view/68afc434-c4fc-48e6-8133-ddf9b5997ca5/item.json) | The *actual* number o f people sleeping in one location
+ - **Treks** | [Details](src/admin_view/e2a073f0-4550-4e45-93a0-973c2b7c5732) | [Settings](src/admin_view/e2a073f0-4550-4e45-93a0-973c2b7c5732/item.json) | Paths
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
 
