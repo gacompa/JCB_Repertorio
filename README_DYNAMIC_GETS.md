@@ -59,6 +59,7 @@ Whether you're building for:
 
 
  - **Footpaths** | [Details](src/dynamic_get/f991fa54-d452-4787-9da7-13762000f8f7) | [Settings](src/dynamic_get/f991fa54-d452-4787-9da7-13762000f8f7/item.json)
+ - **Locations** | [Details](src/dynamic_get/e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c) | [Settings](src/dynamic_get/e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c/item.json)
  - **OnePiece** | [Details](src/dynamic_get/a5db6b55-75d2-4e1b-8946-d82faf233a55) | [Settings](src/dynamic_get/a5db6b55-75d2-4e1b-8946-d82faf233a55/item.json)
  - **Pieces** | [Details](src/dynamic_get/71c45578-bd82-4b67-bb7c-45cdd0ba5719) | [Settings](src/dynamic_get/71c45578-bd82-4b67-bb7c-45cdd0ba5719/item.json)
 
