@@ -1,0 +1,24 @@
+{
+    "system_name": "Bookings",
+    "path": "site\/src\/Model\/Locations_blocksModel.php",
+    "target": 2,
+    "type": 2,
+    "comment_type": 1,
+    "joomla_version": 5,
+    "function_name": "getPlaceAltitude",
+    "code": "\/\/ --- CUSTOM ENRICHMENT START getPlaceAltitude: Copy altitude from #__bookings_place ---\r\nforeach ($items as $nr => &$item)\r\n\t{\r\n    \/\/ Check if the item has the required foreign key (place_id)\r\n\tif (isset($item->place_id) && $item->place_id > 0) {\r\n    \/\/Executes the query to retrieve the altitude value from the #__bookings_place table.\r\n    \/\/SELECT altitude FROM #__bookings_place WHERE id = [place_id]\r\n\t$db = $this->getDbo();\r\n    $query = $db->getQuery(true);\r\n\r\n    \/\/ 1. SELECT the specific field 'altitude'\r\n    $query->select($db->quoteName('altitude'));\r\n\r\n    \/\/ 2. FROM the table '#__bookings_place'\r\n    $query->from($db->quoteName('#__bookings_place'));\r\n\r\n    \/\/ 3. WHERE clause to match the ID.\r\n    \/\/ Use quoting for security, which is good practice.\r\n    $query->where($db->quoteName('id') . ' = ' . $db->quote((int) $item->place_id));\r\n\r\n    $db->setQuery($query);\r\n\r\n    try {\r\n       \/\/ loadResult() is used to fetch a single value (the altitude) from the first row.\r\n        $altitude = $db->loadResult();\r\n    \t} catch (\\Exception $e) {\r\n        \/\/ Log the error (recommended practice)\r\n        Factory::getApplication()->enqueueMessage('Database Error in Place Altitude Lookup: ' . $e->getMessage(), 'error');\r\n        }\r\n    \/\/ Assign the retrieved altitude to the new field name: 'place_altitude'\r\n\t\/\/ This overwrites the value loaded from the main table if one existed.\r\n\t\t$item->place_altitude = $altitude;\r\n    } else {\r\n            $item->place_altitude = null;\r\n        }\r\n\t}\r\n\/\/ --- CUSTOM ENRICHMENT END ---\r\n",
+    "hashendtarget": "0",
+    "to_line": "296",
+    "from_line": "260",
+    "hashtarget": "10__0ce49fd9d2907b3a6249cab36b39bda5",
+    "component": "2f178bc9-ea50-466d-8463-fcad5ca93908",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "2f178bc9-ea50-466d-8463-fcad5ca93908",
+            "entity": "joomla_component",
+            "table": "#__componentbuilder_joomla_component",
+            "direction": "out"
+        }
+    ]
+}
