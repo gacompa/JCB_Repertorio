@@ -1,0 +1,51 @@
+{
+    "name": "OnePiece",
+    "main_source": 1,
+    "gettype": 1,
+    "php_calculation": "",
+    "php_router_parse": null,
+    "add_php_after_getitems": 0,
+    "add_php_router_parse": 0,
+    "view_selection": "a.id AS id\r\na.asset_id AS asset_id\r\na.genre AS genre\r\na.composer AS composer\r\na.title AS title\r\na.score AS score\r\na.part_type AS part_type\r\na.soprano_part AS soprano_part\r\na.alto_part AS alto_part\r\na.tenor_part AS tenor_part\r\na.bass_part AS bass_part\r\na.soprano_part_yt AS soprano_part_yt\r\na.alto_part_yt AS alto_part_yt\r\na.tenor_part_yt AS tenor_part_yt\r\na.bass_part_yt AS bass_part_yt\r\na.public_performance AS public_performance\r\na.soprano_label AS soprano_label\r\na.alto_label AS alto_label\r\na.tenor_label AS tenor_label\r\na.bass_label AS bass_label\r\na.published AS published\r\na.created_by AS created_by\r\na.modified_by AS modified_by\r\na.created AS created\r\na.modified AS modified\r\na.version AS version\r\na.hits AS hits\r\na.ordering AS ordering",
+    "add_php_before_getitems": 0,
+    "add_php_before_getitem": 0,
+    "add_php_after_getitem": 0,
+    "db_table_main": null,
+    "php_custom_get": null,
+    "plugin_events": null,
+    "db_selection": null,
+    "view_table_main": "b38490e3-b6a5-4b1a-93d4-274ff7754b71",
+    "add_php_getlistquery": 0,
+    "join_db_table": null,
+    "select_all": 0,
+    "php_before_getitem": "",
+    "getcustom": "",
+    "php_after_getitem": "",
+    "pagination": 1,
+    "php_getlistquery": "",
+    "php_before_getitems": "",
+    "filter": null,
+    "php_after_getitems": "",
+    "where": {
+        "where0": {
+            "table_key": "a.id",
+            "operator": 1,
+            "value_key": "$pk"
+        }
+    },
+    "order": null,
+    "addcalculation": 0,
+    "group": null,
+    "global": null,
+    "guid": "a5db6b55-75d2-4e1b-8946-d82faf233a55",
+    "join_view_table": null,
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "b38490e3-b6a5-4b1a-93d4-274ff7754b71",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        }
+    ]
+}
