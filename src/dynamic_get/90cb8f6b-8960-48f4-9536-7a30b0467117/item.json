@@ -1,0 +1,56 @@
+{
+    "name": "Map",
+    "main_source": 1,
+    "gettype": 2,
+    "php_calculation": "",
+    "php_router_parse": null,
+    "add_php_after_getitems": 0,
+    "add_php_router_parse": 0,
+    "view_selection": "a.id AS id\r\na.asset_id AS asset_id\r\na.place AS place\r\na.altitude AS altitude\r\na.latitude AS latitude\r\na.longitude AS longitude\r\na.published AS published\r\na.created_by AS created_by\r\na.modified_by AS modified_by\r\na.created AS created\r\na.modified AS modified\r\na.version AS version\r\na.hits AS hits\r\na.ordering AS ordering",
+    "add_php_before_getitems": 0,
+    "add_php_before_getitem": 0,
+    "add_php_after_getitem": 0,
+    "db_table_main": null,
+    "php_custom_get": null,
+    "plugin_events": null,
+    "db_selection": null,
+    "view_table_main": "55aac7da-e105-4ab2-9c34-6ee44e8b692c",
+    "add_php_getlistquery": 1,
+    "join_db_table": null,
+    "select_all": 0,
+    "php_before_getitem": "",
+    "getcustom": "",
+    "php_after_getitem": "",
+    "pagination": 1,
+    "php_getlistquery": "\/\/ Override the list limit, get ALL items in the list to avoid pagination in the map display\r\n$this->setState('list.limit', 0);\r\n",
+    "php_before_getitems": "",
+    "filter": null,
+    "php_after_getitems": "",
+    "where": {
+        "where0": {
+            "table_key": "a.longitude",
+            "operator": 4,
+            "value_key": "0"
+        },
+        "where1": {
+            "table_key": "a.latitude",
+            "operator": 4,
+            "value_key": "0"
+        }
+    },
+    "order": null,
+    "addcalculation": 0,
+    "group": null,
+    "global": null,
+    "guid": "90cb8f6b-8960-48f4-9536-7a30b0467117",
+    "join_view_table": null,
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "55aac7da-e105-4ab2-9c34-6ee44e8b692c",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        }
+    ]
+}
