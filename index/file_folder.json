@@ -13,5 +13,15 @@
         "name": "images\/com_repertorio\/icons\/music-files-icon.png",
         "path": "src\/file_folder\/1fe4066d-d9ec-59e4-b69e-132d2e30de81.png",
         "guid": "1fe4066d-d9ec-59e4-b69e-132d2e30de81.png"
+    },
+    "1a458ba0-c459-5b16-85af-a48d4845ae63.png": {
+        "name": "images\/com_bookings\/Icons\/map-icon.png",
+        "path": "src\/file_folder\/1a458ba0-c459-5b16-85af-a48d4845ae63.png",
+        "guid": "1a458ba0-c459-5b16-85af-a48d4845ae63.png"
+    },
+    "e5b2102c-355e-5a7e-b929-cd64bef19a7e.png": {
+        "name": "images\/com_bookings\/Icons\/road-map-icon.png",
+        "path": "src\/file_folder\/e5b2102c-355e-5a7e-b929-cd64bef19a7e.png",
+        "guid": "e5b2102c-355e-5a7e-b929-cd64bef19a7e.png"
     }
 }
