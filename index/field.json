@@ -136,5 +136,23 @@
         "path": "src\/field\/a557cc9f-7c09-494e-a8b0-2845ad80d940",
         "settings": "src\/field\/a557cc9f-7c09-494e-a8b0-2845ad80d940\/item.json",
         "guid": "a557cc9f-7c09-494e-a8b0-2845ad80d940"
+    },
+    "048ef402-65a6-443f-9e3a-1ac67dcd0bf6": {
+        "name": "Long description",
+        "path": "src\/field\/048ef402-65a6-443f-9e3a-1ac67dcd0bf6",
+        "settings": "src\/field\/048ef402-65a6-443f-9e3a-1ac67dcd0bf6\/item.json",
+        "guid": "048ef402-65a6-443f-9e3a-1ac67dcd0bf6"
+    },
+    "eee94b56-e5d2-4dbc-b576-8f0a676de8b4": {
+        "name": "Footpath",
+        "path": "src\/field\/eee94b56-e5d2-4dbc-b576-8f0a676de8b4",
+        "settings": "src\/field\/eee94b56-e5d2-4dbc-b576-8f0a676de8b4\/item.json",
+        "guid": "eee94b56-e5d2-4dbc-b576-8f0a676de8b4"
+    },
+    "fa66abdf-89d9-452d-b68e-353c78a630f2": {
+        "name": "Komoot_embed_code",
+        "path": "src\/field\/fa66abdf-89d9-452d-b68e-353c78a630f2",
+        "settings": "src\/field\/fa66abdf-89d9-452d-b68e-353c78a630f2\/item.json",
+        "guid": "fa66abdf-89d9-452d-b68e-353c78a630f2"
     }
 }
