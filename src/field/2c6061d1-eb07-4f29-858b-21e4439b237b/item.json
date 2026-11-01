@@ -1,0 +1,35 @@
+{
+    "name": "Longitude (decimal)",
+    "fieldtype": "5abd2b73-643b-4273-841a-787991aad968",
+    "datatype": "DECIMAL",
+    "indexes": "2",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"number\"\n\tname=\"longitude\"\n\tlabel=\"Longitude\"\n\tdefault=\"0\"\n\tdescription=\"Enter the Longitude (if 0 place will no show on map)\"\n\tclass=\"text_area\"\n\trequired=\"false\"\n\tmin=\"1\"\n\tmax=\"40\"\n\tstep=\"5\"\n\/>",
+    "datalenght": "Other",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "11,8",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "2c6061d1-eb07-4f29-858b-21e4439b237b",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "5abd2b73-643b-4273-841a-787991aad968",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
