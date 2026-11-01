@@ -1,0 +1,9 @@
+{
+    "getPlaceAltitude": {
+        "name": "Bookings",
+        "desc": "JCB (manual)",
+        "path": "src\/custom_code\/getPlaceAltitude",
+        "settings": "src\/custom_code\/getPlaceAltitude\/item.json",
+        "guid": "getPlaceAltitude"
+    }
+}
